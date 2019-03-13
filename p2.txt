@@ -1,0 +1,66 @@
+The whole and parts
+Designing the bugs out
+
+Bug-proofing the definition
+
+System bugs, - most dangerous arise from mismatched assumptions by authors of various components
+Most failures are due to unspecified defintions of functions
+
+
+Testing the bugs out -
+
+
+
+
+Component debugging 
+
+cycle past 20 years 4 stages
+1. On machine debugging - input output tape Push start
+without having segmented program into test sections
+2. memory dumps - High speed printers enabled
+data dumps so debug through data dump
+3.Snapshot-Selective memory dumps
+4.Interactiver debugging - instant turnaround
+batchdebugging. Multiprogramming system, when one
+developer was examining their errors another
+program was being run
+machine time no longer dissapears while one sits 
+and thinks- so pre-planning debugging not neccasary
+First interaction most progress
+Lack of session planning - not realizing most progress
+that we could be from these interactions
+
+System Debugging
+
+Takes longer than one expects
+Justifying a systematic and fully planned
+approach
+
+1. Use debugged components: it is common practice to not
+use debugged components before system debugging begins
+Sooner one puts these systems together sooner
+system bugs will emerge
+Avoids test scaffolding
+1.5 - Dcoumented bug approach - don't add components
+until all flaws are found - since you know the flaws
+you can ignore the effects and find system bugs
+
+2. Build plenty of scaffolding - code chunks
+meant to help with testing and debugging your code
+50% of code could be only scaffolding
+Dummy componentt - well formatted meaningless
+ordered data dump
+Miniture file - typical rcords to keep format types
+right - dummy is limiting case
+Special purpose auxiliary programs - cross ref. tables,
+
+3. Control changes - somone must control control changes
+Controlled copy versions
+logging changes so you can know where errors come from
+
+
+4. Add one component at a time - obvious but laziness violates it
+
+Quanitize updates - upgrading components
+Replacing a component requiers same systematic testing that a new component
+would

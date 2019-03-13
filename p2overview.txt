@@ -1,0 +1,50 @@
+Problem -- 1 page -- Describes the problem identified to be solved. For research project this will be a detailed description of issue or failure to be researched.
+
+Problem - Anyone can write a program or design a system, but how does one ensure the quality of the product so that it works.
+
+
+
+The worst bugs are system bugs which originate from assumption made by individual authors of different components.
+
+
+
+
+Solution - Desiging the bugs out
+
+
+Specified product defintion
+
+A thoroughly designed Product defintion is important to prevent system bugs. Since most of these bugs are due to unspecified defintion of functions.
+
+
+Structured programming
+
+One way to avoid bugs is to adhere to Dijstrak's theory of Structured programming	
+
+In strucured programming programs are composed of the following control structures.
+Sequences - Statements exectued one after the other
+Selection - an if else statement
+Iteration - Do while loop
+Recursion - A function calls itself until a certain condition is met.
+
+
+Testing the bugs out- 
+
+
+	
+
+
+top down design -
+
+
+
+
+
+Structured programming 
+
+Debugging -
+
+
+Solution Approach -- 1 page - Identifies any solution approaches considered for attacking the project and identifies the solution approach actually taken. Or additional details of research or failure project
+Notes:
+Solutions - designing bugs out, top down design, structured programming and debugging
